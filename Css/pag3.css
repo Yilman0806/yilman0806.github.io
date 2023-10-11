@@ -1,0 +1,852 @@
+body{
+    background-image: url(../Img/museum-3682605_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Yil;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#conG{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(167, 158, 158);
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header >h1{
+    font-family: Yil;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(76, 74, 74);
+    margin-right: 70px;
+    font-size: 50px;
+    
+}
+.cajas a{
+  
+    text-decoration: none;
+    color: rgb(76, 74, 74);
+    margin-left: 25px;
+}
+
+.cajas:hover{
+    background-color:  rgb(76, 74, 74) ;
+}
+
+#cp3{
+    width: 50%;
+    height: auto;
+    background-color: rgb(167, 158, 158);
+    margin-top: 30px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    border: 5px solid rgb(137, 137, 151);
+}
+.sem{
+    width: 100%;
+    height: 80px;
+    margin-left: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sem1{
+    width: 100%;
+    height: 80px;
+    margin-left: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    font-size: 30px;
+}
+#cp4{
+    width: 100%;
+    height: auto;
+    background-color: rgb(167, 158, 158);
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+
+.sem1 p{
+    font-size: 70px;
+}
+.cajas{
+    width: 12%;
+    height:50px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.cajas1{
+    width: 12%;
+    height:50px;
+    background-color: rgb(167, 158, 158);
+    margin-left: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.cajas p{
+    margin-left: 40px;
+    color: black;
+}
+#cg3{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    margin-top: 50px;
+}
+
+.contenedor-acordeon{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.contenedor-acordeon h2{
+    color: rgb(214, 212, 212);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.acordeon{
+    background-color: rgb(226, 213, 213);
+}
+
+.acordeon label{
+    display: block;
+    padding: 20px;
+    font-size: 40px;
+    background-color: rgb(167, 158, 158);;
+    color: #000000;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+    text-align: center;
+}
+
+.acordeon label:hover{
+    background: #2e2e2e;
+}
+
+.acordeon .contenido-acordeon{
+    padding: 0px;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.btn-acordeon:checked ~ .contenido-acordeon{
+    max-height: 600px;
+    padding: 15px 0px;
+}
+
+.btn-acordeon{
+    display: none;
+}
+#siuuu1  img{
+
+    width: 50%;
+    height: 200px;
+    margin-left: 180px;
+}
+#siuuu2  img{
+
+    width: 20%;
+    height: 200px;
+    margin-left: 300px;
+}
+#siuuu3  img{
+
+    width: 50%;
+    height: 200px;
+    margin-left: 200px;
+}
+#siuuu4  img{
+
+    width: 30%;
+    height: 300px;
+    margin-left: 250px;
+}
+#siuuu5  img{
+
+    width: 30%;
+    height: 200px;
+    margin-left: 250px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 490px) {
+    body{
+        background-image: url(../Img/museum-3682605_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Yil;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #conG{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(167, 158, 158);
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    header >h1{
+        font-family: Yil;
+        font-size: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(76, 74, 74);
+        margin-right: 20px;
+        font-size: 25px;
+        float: right;
+    }
+    .cajas a{
+      
+        text-decoration: none;
+        color: rgb(76, 74, 74);
+        margin-left: 25px;
+    }
+    
+    .cajas:hover{
+        background-color:  rgb(76, 74, 74) ;
+    }
+    
+    #cp3{
+        width: 80%;
+        height: auto;
+        background-color: rgb(167, 158, 158);
+        margin-top: 30px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+        border: 5px solid rgb(137, 137, 151);
+    }
+    .sem{
+        width: 100%;
+        height: 40px;
+        margin-left: 3px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sem1{
+        width: 100%;
+        height: 80px;
+        margin-left: 7px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    p{
+        font-size: 10px;
+    }
+    #cp4{
+        width: 100%;
+        height: auto;
+        background-color: rgb(167, 158, 158);
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 30px;
+       
+    }
+    
+    .sem1 p{
+        font-size: 40px;
+    }
+    .cajas{
+        width: 6%;
+        height:10px;
+        background-color: white;
+        margin-left: 17px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .cajas1{
+        width: 6%;
+        height:10px;
+        background-color: rgb(167, 158, 158);
+        margin-left: 15px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .cajas p{
+       margin-right: 48px;
+        color: black;
+    }
+    #cg3{
+        width: 100%;
+        height: auto;
+        background-color: aqua;
+        margin-top: 50px;
+    }
+    
+    .contenedor-acordeon{
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    .contenedor-acordeon h2{
+        color: rgb(214, 212, 212);
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .acordeon{
+        background-color: rgb(226, 213, 213);
+    }
+    
+    .acordeon label{
+        display: block;
+        padding: 20px;
+        font-size: 40px;
+        background-color: rgb(167, 158, 158);;
+        color: #000000;
+        cursor: pointer;
+        margin-bottom: 2px;
+        transition: all 300ms ease;
+        text-align: center;
+    }
+    
+    .acordeon label:hover{
+        background: #2e2e2e;
+    }
+    
+    .acordeon .contenido-acordeon{
+        padding: 0px;
+        margin: 0px 20px;
+        max-height: 0px;
+        overflow: hidden;
+        transition: all 300ms ease;
+    }
+    
+    .btn-acordeon:checked ~ .contenido-acordeon{
+        max-height: 600px;
+        padding: 15px 0px;
+    }
+    
+    .btn-acordeon{
+        display: none;
+    }
+    #siuuu1  img{
+    
+        width: 100%;
+        height: 150px;
+        margin-left: 0px;
+    }
+    #siuuu2  img{
+    
+        width: 100%;
+        height: 230px;
+        margin-left: 0px;
+    }
+    #siuuu3  img{
+    
+        width: 100%;
+        height: 100px;
+        margin-left: 0px;
+    }
+    #siuuu4  img{
+    
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+    }
+    #siuuu5  img{
+    
+        width: 100%;
+        height: 150px;
+        margin-left: 0px;
+    }
+    #siuuu1 p{
+        font-size: 16px;
+    }
+    #siuuu2 p{
+        font-size: 16px;
+    }
+    #siuuu3 p{
+        font-size: 16px;
+    }
+    #siuuu4 p{
+        font-size: 16px;
+    }
+    #siuuu5 p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 491px) and (max-width: 570px) {
+    body{
+        background-image: url(../Img/museum-3682605_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Yil;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #conG{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(167, 158, 158);
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    header >h1{
+        font-family: Yil;
+        font-size: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(76, 74, 74);
+        margin-right: 30px;
+        font-size: 30px;
+        float: right;
+    }
+    .cajas a{
+      
+        text-decoration: none;
+        color: rgb(76, 74, 74);
+        margin-left: 25px;
+    }
+    
+    .cajas:hover{
+        background-color:  rgb(76, 74, 74) ;
+    }
+    
+    #cp3{
+        width: 80%;
+        height: auto;
+        background-color: rgb(167, 158, 158);
+        margin-top: 30px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+        border: 5px solid rgb(137, 137, 151);
+    }
+    .sem{
+        width: 100%;
+        height: 40px;
+        margin-left: 3px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sem1{
+        width: 100%;
+        height: 80px;
+        margin-left: 7px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    p{
+        font-size: 10px;
+    }
+    #cp4{
+        width: 100%;
+        height: auto;
+        background-color: rgb(167, 158, 158);
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 30px;
+       
+    }
+    
+    .sem1 p{
+        font-size: 50px;
+    }
+    .sem p{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .cajas{
+        width: 9%;
+        height:20px;
+        background-color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .cajas1{
+        width: 9%;
+        height:20px;
+        background-color: rgb(167, 158, 158);
+        margin-left: 15px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .cajas p{
+       margin-right: 38px;
+        color: black;
+    }
+    #cg3{
+        width: 100%;
+        height: auto;
+        background-color: aqua;
+        margin-top: 50px;
+    }
+    
+    .contenedor-acordeon{
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    .contenedor-acordeon h2{
+        color: rgb(214, 212, 212);
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .acordeon{
+        background-color: rgb(226, 213, 213);
+    }
+    
+    .acordeon label{
+        display: block;
+        padding: 20px;
+        font-size: 40px;
+        background-color: rgb(167, 158, 158);;
+        color: #000000;
+        cursor: pointer;
+        margin-bottom: 2px;
+        transition: all 300ms ease;
+        text-align: center;
+    }
+    
+    .acordeon label:hover{
+        background: #2e2e2e;
+    }
+    
+    .acordeon .contenido-acordeon{
+        padding: 0px;
+        margin: 0px 20px;
+        max-height: 0px;
+        overflow: hidden;
+        transition: all 300ms ease;
+    }
+    
+    .btn-acordeon:checked ~ .contenido-acordeon{
+        max-height: 600px;
+        padding: 15px 0px;
+    }
+    
+    .btn-acordeon{
+        display: none;
+    }
+    #siuuu1  img{
+    
+        width: 100%;
+        height: 150px;
+        margin-left: 0px;
+    }
+    #siuuu2  img{
+    
+        width: 100%;
+        height: 380px;
+        margin-left: 0px;
+    }
+    #siuuu3  img{
+    
+        width: 100%;
+        height: 180px;
+        margin-left: 0px;
+    }
+    #siuuu4  img{
+    
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+    }
+    #siuuu5  img{
+    
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+    #siuuu1 p{
+        font-size: 23px;
+    }
+    #siuuu2 p{
+        font-size: 23px;
+    }
+    #siuuu3 p{
+        font-size: 23px;
+    }
+    #siuuu4 p{
+        font-size: 23px;
+    }
+    #siuuu5 p{
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 571px) and (max-width: 890px) {
+    body{
+        background-image: url(../Img/museum-3682605_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Yil;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    #conG{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(167, 158, 158);
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header >h1{
+        font-family: Yil;
+        font-size: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(76, 74, 74);
+        margin-right: 30px;
+        font-size: 30px;
+        float: right;
+    }
+    .cajas a{
+      
+        text-decoration: none;
+        color: rgb(76, 74, 74);
+        margin-left: 25px;
+    }
+    
+    .cajas:hover{
+        background-color:  rgb(76, 74, 74) ;
+    }
+    
+    #cp3{
+        width: 80%;
+        height: auto;
+        background-color: rgb(167, 158, 158);
+        margin-top: 30px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+        border: 5px solid rgb(137, 137, 151);
+    }
+    .sem{
+        width: 100%;
+        height: 40px;
+        margin-left: 3px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .sem1{
+        width: 100%;
+        height: 80px;
+        margin-left: 7px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    p{
+        font-size: 10px;
+    }
+    #cp4{
+        width: 100%;
+        height: auto;
+        background-color: rgb(167, 158, 158);
+        padding-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 30px;
+       
+    }
+    
+    .sem1 p{
+        font-size: 50px;
+    }
+    .sem p{
+        font-size: 20px;
+        margin-left: 5px;
+    }
+    .cajas{
+        width: 9%;
+        height:30px;
+        background-color: white;
+        margin-left: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .cajas1{
+        width: 9%;
+        height:20px;
+        background-color: rgb(167, 158, 158);
+        margin-left: 15px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .cajas p{
+        font-size: 20px;
+       margin-right: 38px;
+        color: black;
+    }
+    #cg3{
+        width: 100%;
+        height: auto;
+        background-color: aqua;
+        margin-top: 50px;
+    }
+    
+    .contenedor-acordeon{
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    .contenedor-acordeon h2{
+        color: rgb(214, 212, 212);
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .acordeon{
+        background-color: rgb(226, 213, 213);
+    }
+    
+    .acordeon label{
+        display: block;
+        padding: 20px;
+        font-size: 40px;
+        background-color: rgb(167, 158, 158);;
+        color: #000000;
+        cursor: pointer;
+        margin-bottom: 2px;
+        transition: all 300ms ease;
+        text-align: center;
+    }
+    
+    .acordeon label:hover{
+        background: #2e2e2e;
+    }
+    
+    .acordeon .contenido-acordeon{
+        padding: 0px;
+        margin: 0px 20px;
+        max-height: 0px;
+        overflow: hidden;
+        transition: all 300ms ease;
+    }
+    
+    .btn-acordeon:checked ~ .contenido-acordeon{
+        max-height: 600px;
+        padding: 15px 0px;
+    }
+    
+    .btn-acordeon{
+        display: none;
+    }
+    #siuuu1  img{
+    
+        width: 100%;
+        height: 150px;
+        margin-left: 0px;
+    }
+    #siuuu2  img{
+    
+        width: 100%;
+        height: 380px;
+        margin-left: 0px;
+    }
+    #siuuu3  img{
+    
+        width: 100%;
+        height: 180px;
+        margin-left: 0px;
+    }
+    #siuuu4  img{
+    
+        width: 100%;
+        height: 400px;
+        margin-left: 0px;
+    }
+    #siuuu5  img{
+    
+        width: 100%;
+        height: 250px;
+        margin-left: 0px;
+    }
+    #siuuu1 p{
+        font-size: 28px;
+    }
+    #siuuu2 p{
+        font-size: 23px;
+    }
+    #siuuu3 p{
+        font-size: 28px;
+    }
+    #siuuu4 p{
+        font-size: 24px;
+    }
+    #siuuu5 p{
+        font-size: 28px;
+    }
+}

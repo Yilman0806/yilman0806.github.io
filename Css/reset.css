@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Yil;
+    src: url(../Fonds/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Yil2;
+    src: url(../Fonds/LoveYaLikeASister-Regular.ttf);
+}
